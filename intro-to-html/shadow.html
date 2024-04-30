@@ -1,0 +1,49 @@
+<style>
+    .dot {
+        background-color: green;
+        color:white;
+        padding-left: 8px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 8px;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+        font-size: 18px;
+        border: none;
+        transition: margin-top 0.5s,
+            margin-left 0.5s;
+    }
+    .dot:hover {
+        box-shadow:none;
+        margin-top:2px;
+        margin-left:2px;
+    }
+    .comma {
+        background-color: green;
+        color:white;
+        padding-left: 15px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-right: 15px;
+        font-size: 18px;
+        border: none;
+        margin-left:4px;
+        margin-right:4px;
+        cursor: pointer;
+        box-shadow: 3px 3px 7px rgba(0,0, 0, 0.5);
+        transition: padding-right 1s,
+            padding-left 1s,
+            margin 1s;
+    }
+    .comma:hover {
+        padding-right:25px;
+        padding-left: 25px;
+        margin-left:4px;
+        margin-left: 4px;
+    }
+</style>
+<button class="dot">Shadow</button>
+<br>
+<br>
+<button class="comma">One</button>
+<button class="comma">Two</button>
+<button class="comma">Three</button>

@@ -1,0 +1,15 @@
+p {
+    font-family: Montserrat;
+    text-align: center;
+}
+.t1 {
+    font-weight: bolder;
+    font-size: 36px;
+    margin-bottom:5px ;
+}
+.t2 {
+    margin-top: 5px;
+}
+.tt2 {
+    text-decoration: underline;
+}
